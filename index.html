@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李一佳的个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- 视差背景 -->
+    <div class="parallax-bg"></div>
+    
+    <!-- 主题切换按钮 -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <div class="container">
+        <!-- 轮播图头部 -->
+        <div class="hero-slider">
+            <div class="slider-inner">
+                <div class="slider-item">
+                    <img src="./轮播图1.jpg" alt="轮播图">
+                    <div class="slider-content">
+                        <h1>李好好的个人主页</h1>
+                        <p>探索我的世界，分享我的故事</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="学习生活">
+                    <div class="slider-content">
+                        <h1>区块链工程专业</h1>
+                        <p>三亚学院 · 探索科技前沿</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <img src="./王一博.jpg" alt="wangyibo">
+                    <div class="slider-content">
+                    </div>
+                </div>
+            </div>
+            <button class="slider-control slider-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-control slider-next"><i class="fas fa-chevron-right"></i></button>
+            <div class="slider-nav">
+                <div class="slider-dot active"></div>
+                <div class="slider-dot"></div>
+                <div class="slider-dot"></div>
+            </div>
+        </div>
+        
+         <nav class="nav">
+            <a href="#profile">个人简介</a>
+            <a href="#skills">我的特长</a>
+            <a href="#portfolio">作品集</a>
+            <a href="#gallery">生活相册</a>
+            <a href="#contact">联系留言</a>
+        </nav>
+
+        <section id="profile" class="section">
+            <h2 class="section-title">个人简介</h2>
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="./自我介绍1.jpg" alt="李一佳的照片">
+                </div>
+                <div class="profile-info">
+                    <div class="info-item"><strong>姓名：</strong>李一佳</div>
+                    <div class="info-item"><strong>性别：</strong>女</div>
+                    <div class="info-item"><strong>年龄：</strong>19岁</div>
+                    <div class="info-item"><strong>生日：</strong>2005年8月30日</div>
+                    <div class="info-item"><strong>学校：</strong>三亚学院</div>
+                    <div class="info-item"><strong>专业：</strong>区块链工程</div>
+                    <div class="info-item"><strong>学号：</strong>2312505047</div>
+                    
+                    <p style="margin-top: 30px; font-size: 1.1rem; line-height: 1.8;">
+                        本人具备出色的沟通能力和团队协作精神，能够在多元化的工作环境中迅速适应并发挥积极作用。我热衷于学习新知识，乐于接受挑战，并且能够在压力下保持冷静和专注。
+                    </p>
+                    <p style="margin-top: 15px; font-size: 1.1rem; line-height: 1.8;">
+                        在忙碌的生活之余，我喜欢通过阅读来充实自己，无论是沉浸在古典文学的韵味中，还是探索现代科技的奥秘，书籍总能给我带来新的视角和思考。同时，我对音乐剧也有着浓厚的兴趣，常常在剧院中感受那些动人心弦的旋律和故事。
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="section">
+            <h2 class="section-title">我的特长</h2>
+            <div class="skills">
+                <div class="skill">沟通能力</div>
+                <div class="skill">团队协作</div>
+                <div class="skill">快速学习</div>
+                <div class="skill">压力管理</div>
+                <div class="skill">摸鱼大师</div>
+                <div class="skill">抽象思维</div>
+                <div class="skill">时间管理</div>
+                <div class="skill">问题解决</div>
+                <div class="skill">创意设计</div>
+            </div>
+            
+            <!-- 技能进度条部分 -->
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">HTML/CSS</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">区块链开发</span>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Go语言</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percent">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 65%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">C语言</span>
+                        <span class="skill-percent">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 作品集展示 -->
+        <section id="portfolio" class="section">
+            <h2 class="section-title">我的作品集</h2>
+            <div class="portfolio">
+                <div class="portfolio-item">
+                    <img src="./作品集1.png" alt="AI聊天助手开发" class="portfolio-img" onclick="openModal(this)">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">AI聊天助手开发</h3>
+                        <p class="portfolio-desc">基于自然语言处理技术开发的智能聊天助手，能够理解用户意图并提供有价值的回复。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">HTML/CSS</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                            <span class="portfolio-tag">NLP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="./作品集2.png" alt="盛宝学院网站设计" class="portfolio-img" onclick="openModal(this)">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">盛宝学院网站设计</h3>
+                        <p class="portfolio-desc">为盛宝金融科技商学院设计的响应式网站，展示学院特色和区块链教育资源。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">HTML/CSS</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                            <span class="portfolio-tag">响应式设计</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="./作品集4.png" alt="axios.html" class="portfolio-img" onclick="openModal(this)">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">axios</h3>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">HTML/CSS</span>
+                            <span class="portfolio-tag">JavaScript</span>
+                            <span class="portfolio-tag">响应式设计</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="./作品集3.png" alt="哈希应用" class="portfolio-img" onclick="openModal(this)">
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">哈希应用</h3>
+                        <p class="portfolio-desc">一个实用的哈希计算工具，支持多种哈希算法，用于数据完整性和安全性验证。</p>
+                        <div class="portfolio-tags">
+                            <span class="portfolio-tag">区块链</span>
+                            <span class="portfolio-tag">数据可视化</span>
+                            <span class="portfolio-tag">加密技术</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 图片模态框 -->
+        <div class="modal" id="imageModal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closeModal()">&times;</span>
+                <img id="modalImage" class="modal-img" src="" alt="">
+                <div class="modal-caption" id="modalCaption"></div>
+            </div>
+        </div>
+
+        <!-- 照片墙展示 -->
+        <section id="gallery" class="section">
+            <h2 class="section-title">我的生活相册</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="./徒步.png" alt="南极洛徒步">
+                    <div class="photo-caption">
+                        <h3>南极洛徒步</h3>
+                        <p>2024年夏季的难忘旅程</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./哈巴.png" alt="哈巴雪山">
+                    <div class="photo-caption">
+                        <h3>哈巴雪山</h3>
+                        <p>人生中第一次攀登雪山，认识了一群有意思的朋友</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./海拉达.png" alt="海拉达照片">
+                    <div class="photo-caption">
+                        <h3>健身日常</h3>
+                        <p>顺便给你看看我那毫无健身痕迹的胳膊</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./潜水.png" alt="潜水照片">
+                    <div class="photo-caption">
+                        <h3>第一次尝试潜水</h3>
+                        <p>探索海底世界的奇妙体验</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./晚霞.png" alt="摄影作品">
+                    <div class="photo-caption">
+                        <h3>摄影📸</h3>
+                        <p>捕捉生活中的美好瞬间</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./日照金山.jpg" alt="雪山照片">
+                    <div class="photo-caption">
+                        <h3>日照金山</h3>
+                        <p>那天看到了日照金山，幸运的时刻</p>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./伯恩山.jpg" alt="伯恩山照片">
+                    <div class="photo-caption">
+                        <h3>伯恩山犬</h3>
+                        <p>特意来跟这群小伯合照</p>
+                    </div>
+                </div>
+
+                <div class="photo-item">
+                    <img src="./海边.jpg" alt="海边照片">
+                    <div class="photo-caption">
+                        <h3>🌊</h3>
+                    </div>
+                </div>
+                
+                <div class="photo-item">
+                    <img src="./演唱会.jpg" alt="演唱会照片">
+                    <div class="photo-caption">
+                        <h3>演唱会</h3>
+                        <p>耳机里的人出现在我面前...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 趣味时间轴 -->
+        <section class="section">
+            <h2 class="section-title">没有教育经历，只有受教育经历</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2023 - 至今</h3>
+                        <p>三亚学院.盛宝金融科技商学院</p>
+                        <p>区块链工程专业</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2020.09-2023.06</h3>
+                        <p>北京忠德肃宁实验学校</p>
+                        <p>为考三亚学院而奋斗</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>2017-2020</h3>
+                        <p>北京忠德肃宁实验学校</p>
+                        <p>为考高中奋斗</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>2011 - 2017</h3>
+                        <p>北京大兴区第四小学</p>
+                        <p>实则转了三个学校，在每个学校玩</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+         
+        <!-- 趣味联系表单 -->
+        <div id="contact" class="contact-form">
+            <h2>联系我</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" class="form-control" placeholder="你的名字" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱</label>
+                    <input type="email" id="email" class="form-control" placeholder="你的邮箱地址" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">留言</label>
+                    <textarea id="message" class="form-control" placeholder="你想对我说什么？" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">发送消息 ✉️</button>
+            </form>
+        </div>
+    </div>
+     
+    <footer>
+        <p>© 2024 李一佳的个人主页 | 区块链2301 | 学号: 2312505047</p>
+    </footer>
+
+    <!-- AI聊天机器人 -->
+    <div class="chatbot-launcher" id="chatbotLauncher">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <div class="chatbot-container" id="chatbotContainer">
+        <div class="chatbot-header" id="chatbotHeader">
+            <h3>李好好的AI助手</h3>
+            <button class="chatbot-toggle" id="chatbotToggle">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <div class="chat-message bot-message">
+                你好！我是李好好的AI助手，有什么可以帮您的吗？
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="输入您的问题...">
+            <button id="chatbotSend">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
